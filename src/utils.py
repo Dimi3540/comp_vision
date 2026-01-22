@@ -14,9 +14,9 @@ def normalize_name(txt):
 
 	return " ".join(txt.strip().title().split())
 
-	def to mxn(valor, tasa: float=1.0): #tasa -> optional param
+def to_mxn(valor, tasa: float=1.0): #tasa -> optional param
 	"""
 	Convierte un valor numerico a MXN multiplicando por la tasa
 	"""
-		return float(valor)*float(tasa)
+	return float(valor)*float(tasa)
 
